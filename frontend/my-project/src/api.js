@@ -1,8 +1,9 @@
 // src/api.js
 import axios from "axios";
+import dotenv from "dotenv"
 
 const instance = axios.create({
-  baseURL: "http://localhost:5000",   // change if you deploy back‑end
+  baseURL: import.meta.env.VITE_BASE_URL,   // change if you deploy back‑end
 });
 
 // attach token automatically

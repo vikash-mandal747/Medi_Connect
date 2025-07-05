@@ -38,6 +38,8 @@ const getDoctorById = async (req, res) => {
   }
 };
 
+
+
 // ‑‑‑  Doctor: add new slots  ‑‑‑
 const addSlots = async (req, res) => {
   /* body = [{start, end}, ...] */

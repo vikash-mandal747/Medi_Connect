@@ -5,8 +5,10 @@ const {
     getAllDoctors,
     getDoctorById,
     addSlots,
-    bookSlot
+    bookSlot,
+    doctorProfile
 } = require('../controllers/doctor.controller');
+const DoctorProfileModel = require('../models/doctor.model');
 
 const DoctorRouter = express.Router();
 
